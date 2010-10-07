@@ -8,5 +8,5 @@ rescue LoadError
   Bundler.setup
 end
 
-require 'application'
+require './application'
 run Sinatra::Application
