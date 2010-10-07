@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+rvm use ruby-1.9.2-head@webapptemplate --create
+
+if [[ -s webapptemplate.gems ]] ; then
+  rvm gemset import webapptemplate.gems
+fi
