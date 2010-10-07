@@ -1,3 +1,4 @@
 bundler -v1.0.2
 sinatra -v1.0
 heroku -v1.10.13
+shotgun -v0.8
